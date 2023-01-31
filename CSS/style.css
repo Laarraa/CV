@@ -1,0 +1,117 @@
+
+/*	allmäna regler för body */
+body {
+    background-color: #0B0D1E;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    flex-wrap: wrap;
+    display: flex;
+    padding: 10px;
+}
+
+.ikoner {
+    display: flex;
+    flex: 0 0 100%;
+    justify-content: space-around;
+}
+
+.ikoner_text {
+    display: flex;
+    flex: 0 0 100%;
+    justify-content: space-around;
+    margin-top: 5px;
+    font-size: small;
+}
+
+/*Färgen på länken är vit samt har ingen understryckning när man ser den för första gången samt när man har varit på sidan. */
+.ikoner_text a:link, .ikoner_text a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+/*När man med musen kretsar över länken så ändras färgen på länken till lila. */
+.ikoner_text a:hover {
+    color: #682bd7;
+}
+
+h1 {
+    background-color: #1b214b;
+    border: 1px solid white;
+    padding: 10px;   
+}
+
+h2 {
+    background-color: #2b3478;
+    border: 1px solid white;   
+    padding: 10px;
+}
+
+p {
+    background-color: #2b3478;
+    border: 1px solid white;
+    padding: 10px;
+    font-size: medium;
+}
+
+/*Span markerar en del av en text i t.ex en paragraf eller en del av dokumentet*/
+span {
+    font-size: large;
+}
+
+table, th, tr, td  {
+    margin-top: 10px;
+    border: 1px solid white; 
+    font-size: large;
+}
+
+/*Display flex skapar en container. I containern finns det flera divar dvs flex items. 
+Med hjälp av display flex kan man då kontrollera de olika flex items positionering, t.ex flex-direction och flex-start.
+
+flex-wrap ställer in om flex-items tvingas in på en rad eller kan radbrytas på flera rader. 
+*/
+.flex_container {
+    display: flex; 
+    flex: 0 0 100%;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*De tre stora länkarna på start.html.*/
+.länkar {
+    background-color: #1b214b;
+    border: 1px solid white;
+    font-size: 50px;
+    margin: auto;
+    margin-top: 5%;
+}
+.länkar a:link, .länkar a:visited {
+    color: white;
+    text-decoration: none;
+}
+.länkar a:hover {
+    color: #682bd7;
+    text-decoration: none;
+}
+
+/*
+De tre länkarna på start sidan. Margin är utrymmet runt ett elements kant. 
+Padding är utrymmet mellan ett elements kant och elementets innehåll.
+*/
+.lank_1, .lank_2, .lank_3 {
+    border: solid white;
+    padding: 15px;
+    margin: 15px;
+}
+
+form  {
+    font-size: large;
+    width: 300px;
+    margin-top: 20px;
+    border: 1px solid white;
+    padding: 10px;
+    background-color: #2b3478;
+}
+
+
+

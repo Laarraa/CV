@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<!--Deklarerar språket på sidan. -->
+<html lang="sv"> 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Namnet på hemsidan. -->
+    <title>Kurser</title>
+    <!--Länk till css dokumentet.-->
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+
+<!-- Har lagt ikoner och ikonernas text i olika divs så enbart ikon texten är länkar samt faller under ikonerna.-->
+<body>
+    <div class="ikoner"> 
+        <img src="house.png" width="30px" height="25px">
+        <img src="books.png" width="30px" height="25px">
+        <img src="profile.png" width="30px" height="25px">
+        <img src="email.png" width="30px" height="25px">
+    </div>
+    <!--Ikoner + länkar till olika sidor. -->
+    <div class="ikoner_text">
+        <a href="start.html">Start</a>
+        <a href="courses.html">Kurser</a>
+        <a href="about_me.html">Om mig</a>
+        <a href="contact.html">Kontakt</a> 
+    </div>
+
+
+    <div class="flex_container">
+        <!-- h1 (heading 1) Förtydligar vilken sida användare är på-->
+        
+        <h1>Kurser</h1>
+    
+        <!--Br som kallas break används som radbrytare-->
+
+        <p>
+            <span>Information om min skola</span><br>
+            <br>
+            Just nu studerar jag teknik programmet på NTI gymnasiet Kronhus.<br>
+            NTI har ett stort utbud av utbildningar men de har ett stort fokus för tekniska utbildningar såsom natur och teknik.<br>
+            Skolan har gett mig verktyg för att kunna fördjupa min kunskaper inom olika områden.
+        </p>
+
+        <p>
+            <span>Vilka programmeringsspråk kan jag?</span><br>
+            <br>
+            Just nu håller jag på att lära mig Python, HTML, CSS och C#.<br>
+            C# har jag studerat senaste 3 månaderna medans de andra har jag studerat i ett halv år.<br>
+            <br>
+            Just nu tycker jag att HTML, CSS och C# är roligast.<br>
+            Hitills har jag inte lärt mig mycket i C# så förhoppningsvis när det bli svårare kommer jag fortfarande gilla språket.
+        </p>
+        
+
+
+        <!--En tabell. Tr står för Table Row. Td står för Table Data-->
+        
+        <table>
+            <tr>
+                <td>Programmering 1</td>
+                <td>Tillämpad programmering</td>
+            </tr>
+            <tr>
+                <td>Webbutveckling 1</td>
+                <td>Dator och nätverksteknik</td>
+            </tr>
+            <tr>
+                <td>Matte 1c</td>
+                <td>Matte 2c</td>
+            </tr>
+            <tr>
+                <td>Matte 3c</td>
+                <td>Teknik 1</td>
+            </tr>
+            <tr>
+                <td>Fysik 1</td>
+                <td>Historia 1a1</td>
+            </tr>
+            <tr>
+                <td>Engelska 5</td>
+                <td>Engelska 6</td>
+            </tr>
+            <tr>
+                <td>Svenska 1</td>
+                <td>Svenska 2</td>    
+            </tr>
+            <tr>     
+                <td>Religionskunskap 1</td>
+                <td>Samhällskunskap 1b</td>
+            </tr>
+        </table>
+        
+    </div>
+</body>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<!--Deklarerar språket på sidan. -->
+<html lang="sv"> 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Namnet på hemsidan. -->
+    <title>Kontakt</title>
+    <!--Länk till css dokumentet.-->
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+
+<!-- Har lagt ikoner och ikonernas text i olika divs så enbart ikon texten är länkar samt faller under ikonerna.-->
+<body>
+    <div class="ikoner"> 
+        <img src="house.png" width="30px" height="25px">
+        <img src="books.png" width="30px" height="25px">
+        <img src="profile.png" width="30px" height="25px">
+        <img src="email.png" width="30px" height="25px">
+    </div>
+    <!--Ikoner + länkar till olika sidor. -->
+    <div class="ikoner_text">
+        <a href="start.html">Start</a>
+        <a href="courses.html">Kurser</a>
+        <a href="about_me.html">Om mig</a>
+        <a href="contact.html">Kontakt</a> 
+    </div>
+
+    <div class="flex_container">
+    <!-- h1 (heading 1) Förtydligar vilken sida användare är på-->
+    <h1>Kontakt</h1>  
+    <!--Parapraf som berättar information om mig. Br som kallas break används som radbrytare.-->
+
+    <h2>Om du vill komma i kontakt med mig var vänlig och fyll i formuläret.</h2>
+
+    <form>
+        <label for="fname">Namn:</label><br>
+        <input type="text" id="f_name" name="f_name"><br>
+        <label for="lname">Efternamn:</label><br>
+        <input type="text" id="l_name" name="l_name"><br>
+        <label for="message">Meddelande:</label><br>
+        <input type="text" id="message" name="message"><br>
+        <label for="phone">Telefon nummer:</label><br>
+        <input type="tel" id="phone" name="phone"><br><br>
+        <input type="submit" value="Skicka in">
+    </form> 
+    
+    </div>
+</body>
+
+</html>
